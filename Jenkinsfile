@@ -11,9 +11,9 @@ pipeline {
         SONAR_SERVER_NAME     = 'Sonarqube_env'
         SONAR_SCANNER_TOOL    = 'sonar-scanner'
         GIT_CREDENTIALS_ID    = 'github-cred'
-        MANIFEST_REPO         = 'https://github.com/sruthijj/maker.git'
+        MANIFEST_REPO         = 'https://github.com/sruthijj/New-Test.git'
         MANIFEST_BRANCH       = 'main'
-        MANIFEST_FILE         = 'manifests/new-test-deployment.yaml'
+        MANIFEST_FILE         = 'manifests/deployment.yaml'
     }
 
     stages {
