@@ -24,7 +24,7 @@ spec:
     spec:
       containers:
         - name: new-test
-          image: sruthijj/new-test:latest          # replaced by Jenkinsfile at deploy time
+          image: sruthijj/new-test:5
           imagePullPolicy: Always
           ports:
             - containerPort: 80
