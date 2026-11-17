@@ -1,0 +1,36 @@
+# ──────────────────────────────────────────
+# .dockerignore – Build context exclusions
+# ──────────────────────────────────────────
+
+# Version control
+.git
+.gitignore
+.gitattributes
+
+# CI / CD
+Jenkinsfile
+.jenkins/
+
+# Kubernetes manifests
+manifests/
+
+# Python virtual env & cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+venv/
+env/
+
+# Editor & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Docker & repo meta
+Dockerfile
+.dockerignore
+README.md
